@@ -55,3 +55,26 @@ Here are three key reasons why it’s critical:
    When requirements are complete, consistent, and testable, developers can create solutions that meet real user needs. This results in higher product quality, better usability, and increased satisfaction among users and stakeholders.
 
 > In essence, Requirement Analysis serves as the **blueprint** for software development — ensuring every feature, function, and user interaction is intentional, validated, and aligned with business goals.
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis involves several structured activities that ensure software requirements are clearly understood, documented, and validated before development begins. These activities help bridge the gap between stakeholder expectations and the technical implementation.
+
+Here are the five key activities involved:
+
+- **1. Requirement Gathering**  
+  This involves collecting information about the system to be developed from various sources such as clients, end-users, and domain experts. Techniques like interviews, questionnaires, surveys, and document analysis are used to gather data about business needs and system goals.
+
+- **2. Requirement Elicitation**  
+  Elicitation focuses on understanding stakeholder needs and expectations in depth. It includes identifying the stakeholders, engaging them through brainstorming sessions, workshops, prototyping, or use cases, and clarifying unclear or conflicting requirements.
+
+- **3. Requirement Documentation**  
+  After gathering and eliciting requirements, they are documented in an organized and detailed manner. This documentation may take the form of a Software Requirement Specification (SRS), user stories, or use case diagrams — serving as a reference for developers, testers, and clients.
+
+- **4. Requirement Analysis and Modeling**  
+  This activity involves examining and structuring the gathered requirements to identify dependencies, conflicts, and priorities. Modeling techniques such as data flow diagrams (DFDs), entity-relationship diagrams (ERDs), and use case models help visualize system behavior and interactions.
+
+- **5. Requirement Validation**  
+  The final step ensures that all documented requirements are complete, consistent, and aligned with stakeholder needs. Validation may include reviews, walkthroughs, or prototyping to confirm that requirements are realistic, achievable, and testable before implementation begins.
+
+> These activities collectively ensure that the software being developed meets user expectations, adheres to business goals, and provides a strong foundation for the rest of the SDLC.
