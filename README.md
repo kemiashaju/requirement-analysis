@@ -168,3 +168,33 @@ Below is the Use Case Diagram for the **Booking Management System**, showing the
 ![Use Case Diagram for Booking System](alx-booking-uc.png)
 
 
+Acceptance Criteria
+Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria are the specific conditions or requirements that must be met for a feature or functionality to be considered complete and acceptable by stakeholders. They help ensure that developers, testers, and clients all have a shared understanding of what the system should do.
+
+Key benefits include:
+
+✅ Clarity and Alignment: Defines what success looks like for each feature.
+
+🧪 Basis for Testing: Helps testers create accurate test cases.
+
+📋 Scope Control: Prevents scope creep by setting clear boundaries.
+
+💬 Better Communication: Ensures developers and stakeholders share the same expectations.
+
+Example: Acceptance Criteria for Checkout Feature
+
+Feature: Checkout (Booking Management System)
+
+Acceptance Criteria:
+
+The system must allow users to review their booking details (dates, rooms, price) before confirming.
+
+Users must be able to select a payment method (credit card, debit card, or PayPal).
+
+The system must display a confirmation message once payment is successful.
+
+Users must receive a confirmation email after completing the payment.
+
+The system should prevent checkout if any mandatory details (e.g., payment info) are missing.
