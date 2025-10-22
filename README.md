@@ -78,3 +78,46 @@ Here are the five key activities involved:
   The final step ensures that all documented requirements are complete, consistent, and aligned with stakeholder needs. Validation may include reviews, walkthroughs, or prototyping to confirm that requirements are realistic, achievable, and testable before implementation begins.
 
 > These activities collectively ensure that the software being developed meets user expectations, adheres to business goals, and provides a strong foundation for the rest of the SDLC.
+
+## Types of Requirements
+
+In software engineering, requirements are generally classified into two main types: **Functional** and **Non-functional**.  
+Both are essential for defining what the system should do and how it should perform. Below are examples based on the **Booking Management Project** case study.
+
+---
+
+### 🧩 Functional Requirements
+
+Functional requirements describe **what the system should do** — the specific behaviors, features, and functions that enable users to achieve their goals. These define the system’s **core functionality**.
+
+**Examples for the Booking Management Project:**
+- The system shall allow users to **create an account** and **log in** securely.
+- The system shall enable users to **search for available properties** by location, date, and price range.
+- The system shall allow hosts to **list new properties**, including images, descriptions, and pricing details.
+- The system shall enable users to **book a property** and receive an automated confirmation message.
+- The system shall allow users to **cancel a booking** and process refunds according to the cancellation policy.
+- The system shall send **email or SMS notifications** for booking confirmations, cancellations, and reminders.
+- The system shall allow administrators to **manage users, bookings, and property listings** through a dashboard.
+
+Functional requirements are the **"actions"** of the system — what it must be capable of doing to meet user needs.
+
+---
+
+### ⚙️ Non-functional Requirements
+
+Non-functional requirements define **how the system performs** its functions. They describe quality attributes such as performance, reliability, security, and usability that determine user satisfaction and system efficiency.
+
+**Examples for the Booking Management Project:**
+- **Performance:** The system should load search results within **3 seconds** under normal network conditions.
+- **Scalability:** The system should support at least **10,000 concurrent users** without performance degradation.
+- **Security:** All sensitive user data (e.g., passwords, payment details) must be **encrypted** in storage and during transmission.
+- **Availability:** The system should have **99.9% uptime** to ensure reliable access to booking services.
+- **Usability:** The interface should be **intuitive and responsive**, allowing users to complete a booking in **less than five steps**.
+- **Compatibility:** The platform should be accessible on **both mobile and desktop browsers**.
+- **Maintainability:** The codebase should follow **modular design principles**, making it easy to update or add new features.
+
+Non-functional requirements focus on the **system’s quality and constraints** — how well it performs its tasks rather than what tasks it performs.
+
+---
+
+> Together, functional and non-functional requirements provide a complete understanding of both **what the system must do** and **how it must behave**, ensuring the product is both effective and user-friendly.
