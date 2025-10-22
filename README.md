@@ -121,3 +121,50 @@ Non-functional requirements focus on the **system’s quality and constraints** 
 ---
 
 > Together, functional and non-functional requirements provide a complete understanding of both **what the system must do** and **how it must behave**, ensuring the product is both effective and user-friendly.
+
+## Use Case Diagrams
+
+A **Use Case Diagram** is a visual representation of how different users (**actors**) interact with a system to achieve specific goals.  
+It helps in identifying **who** will use the system and **what** functionalities they will perform.  
+
+Use Case Diagrams are an essential part of **Requirement Analysis** as they help in understanding the **functional scope** of a system and serve as a communication bridge between stakeholders and developers.
+
+---
+
+### 🎯 Benefits of Use Case Diagrams
+
+- Provide a **high-level overview** of system interactions.
+- Help stakeholders and developers **understand system functionality** clearly.
+- Serve as a **foundation for writing detailed functional requirements**.
+- Support **identification of primary actors and their goals**.
+- Enhance **communication and collaboration** within the development team.
+
+---
+
+### 🧑‍💻 Use Case Diagram for Booking Management System
+
+Below is the Use Case Diagram for the **Booking Management System**, showing the interactions between users (actors) and the main system features.
+
+**Actors:**
+- **Guest/User** – searches, books, cancels, and reviews properties.
+- **Host** – lists, updates, and manages property listings.
+- **Administrator** – oversees user accounts, bookings, and platform management.
+
+**Use Cases:**
+- Create Account / Login  
+- Search for Properties  
+- View Property Details  
+- Book Property  
+- Cancel Booking  
+- Make Payment  
+- Manage Listings (Host)  
+- Manage Users and Bookings (Admin)  
+- View Booking History  
+
+---
+
+### 🖼️ Use Case Diagram
+
+![Use Case Diagram for Booking System](alx-booking-uc.png)
+
+
